@@ -10,8 +10,8 @@ import (
 
 const (
 	helpMessage      string = "this command line tool adds/changes parameters in text files\n example: configWriter -file=\"config.txt\" -parameter=username -value=root"
-	defaultParameter string = "username"
-	defaultValue     string = "root"
+	defaultParameter string = "parameter"
+	defaultValue     string = "value"
 )
 
 var (
