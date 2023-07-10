@@ -22,7 +22,7 @@ var (
 )
 
 var (
-	WrongParameterError     = errors.New("pramaters missing")
+	WrongParameterError     = errors.New("parameters missing")
 	WrongFileExtensionError = errors.New("stat %s: wrong file extension")
 	FileIsDirError          = errors.New("stat %s: given file is directory")
 	FileWriteError          = errors.New("stat %s: could not write file")
